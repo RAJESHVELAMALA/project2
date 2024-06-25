@@ -60,9 +60,9 @@ This project aims to develop a machine learning model to predict the type of dis
 
 ## Tools and Technologies
 - **Programming Language**: Python
-- **Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch
-- **Visualization Tools**: Matplotlib, Seaborn, Plotly
-- **Deployment Frameworks**: Flask, FastAPI, Docker
+- **Libraries**: Pandas, NumPy, Scikit-learn, etc
+- **Visualization Tools**: Matplotlib, Seaborn graphs
+- **Deployment Frameworks**: Flask,  Javascript & HTML 
 
 ## Expected Outcomes
 - **Accurate Diagnosis**: Enhance disease diagnosis accuracy based on patient symptoms.
