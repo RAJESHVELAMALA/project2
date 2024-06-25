@@ -37,7 +37,7 @@ This project aims to develop a machine learning model to predict the type of dis
 - **Statistical Analysis**: Derive insights from data patterns and relationships through summary statistics.
 
 ### Model Selection
-- **Algorithm Choice**: Evaluate and select appropriate machine learning algorithms, including Logistic Regression, Decision Trees, Random Forests, SVM, and Neural Networks.
+- **Algorithm Choice**: Evaluate and select appropriate machine learning algorithms, including Logistic Regression, Decision Trees, Random Forests, and SVM etc...
 - **Baseline Model**: Establish a baseline performance with a simple model.
 
 ### Model Training
