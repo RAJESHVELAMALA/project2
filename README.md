@@ -19,7 +19,7 @@ This project aims to develop a machine learning model to predict the type of dis
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Publicly Available Health Records](#publicly-available-health-records)
 
 ## Methodology
 
@@ -107,8 +107,43 @@ This project aims to develop a machine learning model to predict the type of dis
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Publicly Available Health Records
+For collecting publicly available health records, you can consider the following sources:
+
+1. **UCI Machine Learning Repository**
+   - **Description**: A collection of datasets for machine learning research, including several related to healthcare.
+   - **Link**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+
+2. **Kaggle**
+   - **Description**: A platform for data science competitions that provides a wide variety of datasets, including those related to health and medicine.
+   - **Link**: [Kaggle Datasets](https://www.kaggle.com/datasets)
+
+3. **National Center for Biotechnology Information (NCBI)**
+   - **Description**: Provides access to biomedical and genomic information, including datasets.
+   - **Link**: [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
+
+4. **Centers for Disease Control and Prevention (CDC)**
+   - **Description**: Offers a variety of public health datasets, including disease surveillance data.
+   - **Link**: [CDC Data & Statistics](https://www.cdc.gov/datastatistics/index.html)
+
+5. **World Health Organization (WHO)**
+   - **Description**: Provides global health observatory data, including statistics and datasets related to various diseases.
+   - **Link**: [WHO Global Health Observatory Data](https://www.who.int/data/gho)
+
+6. **HealthData.gov**
+   - **Description**: A portal for public health datasets from the U.S. government.
+   - **Link**: [HealthData.gov](https://www.healthdata.gov/)
+
+7. **The MIMIC-III Clinical Database**
+   - **Description**: A freely accessible critical care database with detailed information on patients admitted to intensive care units.
+   - **Link**: [MIMIC-III Database](https://mimic.mit.edu/)
+
+8. **PhysioNet**
+   - **Description**: Provides access to a large collection of physiological and clinical data.
+   - **Link**: [PhysioNet](https://physionet.org/)
+
+
+
 
 
 
