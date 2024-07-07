@@ -1,0 +1,87 @@
+openapi: 3.0.3
+info:
+  title: Sample API
+  version: 1.0.0
+paths:
+  /predict:
+    post:
+      summary: Endpoint to predict based on symptoms
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                Age:
+                  type: integer
+                Gender:
+                  type: integer
+                itching:
+                  type: integer
+                skin_rash:
+                  type: integer
+                nodal_skin_eruptions:
+                  type: integer
+                continuous_sneezing:
+                  type: integer
+                shivering:
+                  type: integer
+                chills:
+                  type: integer
+                joint_pain:
+                  type: integer
+                stomach_pain:
+                  type: integer
+                acidity:
+                  type: integer
+                ulcers_on_tongue:
+                  type: integer
+                muscle_wasting:
+                  type: integer
+                vomiting:
+                  type: integer
+                burning_micturition:
+                  type: integer
+                spotting_urination:
+                  type: integer
+                fatigue:
+                  type: integer
+                weight_gain:
+                  type: integer
+                anxiety:
+                  type: integer
+                cold_hands_and_feets:
+                  type: integer
+              required:
+                - Age
+                - Gender
+                - itching
+                - skin_rash
+                - nodal_skin_eruptions
+                - continuous_sneezing
+                - shivering
+                - chills
+                - joint_pain
+                - stomach_pain
+                - acidity
+                - ulcers_on_tongue
+                - muscle_wasting
+                - vomiting
+                - burning_micturition
+                - spotting_urination
+                - fatigue
+                - weight_gain
+                - anxiety
+                - cold_hands_and_feets
+      responses:
+        '200':
+          description: Successful prediction response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prediction:
+                    type: string
+                    description: Predicted value based on symptoms

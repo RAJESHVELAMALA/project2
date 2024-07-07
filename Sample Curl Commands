@@ -1,0 +1,41 @@
+#Sample Curl Commands 
+
+#"prediction": "Hypothyroidism"
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"Age": 45, "Gender": 1, "itching": 0, "skin_rash": 0, "nodal_skin_eruptions": 0, "continuous_sneezing": 1, "shivering": 1, "chills": 1, "joint_pain": 1, "stomach_pain": 1, "acidity": 1, "ulcers_on_tongue": 1, "muscle_wasting": 1, "vomiting": 1, "burning_micturition": 0, "spotting_urination": 0, "fatigue": 0, "weight_gain": 1, "anxiety": 1, "cold_hands_and_feets": 1}'
+
+#"prediction": "Hepatitis D"
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"Age": 35, "Gender": 0, "itching": 1, "skin_rash": 1, "nodal_skin_eruptions": 1, "continuous_sneezing": 1, "shivering": 1, "chills": 1, "joint_pain": 1, "stomach_pain": 1, "acidity": 1, "ulcers_on_tongue": 1, "muscle_wasting": 1, "vomiting": 1, "burning_micturition": 1, "spotting_urination": 1, "fatigue": 1, "weight_gain": 1, "anxiety": 1, "cold_hands_and_feets": 1}'
+
+#"prediction": "Common Cold"
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"Age": 70, "Gender": 1, "itching": 1, "skin_rash": 0, "nodal_skin_eruptions": 1, "continuous_sneezing": 1, "shivering": 0, "chills": 1, "joint_pain": 0, "stomach_pain": 1, "acidity": 0, "ulcers_on_tongue": 0, "muscle_wasting": 0, "vomiting": 0, "burning_micturition": 0, "spotting_urination": 1, "fatigue": 1, "weight_gain": 0, "anxiety": 0, "cold_hands_and_feets": 1}'
+
+#Hypertension
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"Age": 50, "Gender": 0, "itching": 1, "skin_rash": 0, "nodal_skin_eruptions": 0, "continuous_sneezing": 1, "shivering": 0, "chills": 1, "joint_pain": 1, "stomach_pain": 1, "acidity": 0, "ulcers_on_tongue": 0, "muscle_wasting": 0, "vomiting": 0, "burning_micturition": 0, "spotting_urination": 1, "fatigue": 1, "weight_gain": 0, "anxiety": 0, "cold_hands_and_feets": 1}'
+
+
+curl -X 'POST' \
+  'http://127.0.0.1:5000/predict' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "Age": 0,
+  "Gender": 0,
+  "itching": 0,
+  "skin_rash": 0,
+  "nodal_skin_eruptions": 0,
+  "continuous_sneezing": 0,
+  "shivering": 0,
+  "chills": 0,
+  "joint_pain": 0,
+  "stomach_pain": 0,
+  "acidity": 0,
+  "ulcers_on_tongue": 0,
+  "muscle_wasting": 0,
+  "vomiting": 0,
+  "burning_micturition": 0,
+  "spotting_urination": 0,
+  "fatigue": 0,
+  "weight_gain": 0,
+  "anxiety": 0,
+  "cold_hands_and_feets": 0
+}'
