@@ -163,3 +163,8 @@ https://www.kaggle.com/datasets/jackwin07/celiac-disease-coeliac-disease/data
    https://rapidapi.com/collection/list-of-free-apis
    
 4.  Unemployement Rate Data vs Sensex Index 
+
+
+
+
+python -m http.server 8000
