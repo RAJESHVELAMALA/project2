@@ -148,7 +148,7 @@ For collecting publicly available health records, you can consider the following
 
 
 
-# project2
+# Other Ideas Considered for Project2
 
 1. Proposal # Given the symptoms pridict the deseace diagnosis
 
